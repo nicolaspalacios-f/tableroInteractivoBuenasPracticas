@@ -63,7 +63,7 @@ class BBCanvas extends React.Component {
 
 // Retorna la url del servicio. Es una función de configuración.
 function BBServiceURL() {
-    return 'ws://localhost:8080/bbService';
+    return '/bbService';
 }
 
 class WSBBChannel {
@@ -98,6 +98,6 @@ class WSBBChannel {
 }
 
 ReactDOM.render(
-    <Editor name="Daniel" />,
+    <Editor name="User" />,
     document.getElementById('root')
 );
