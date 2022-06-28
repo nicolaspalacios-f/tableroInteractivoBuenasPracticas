@@ -1,0 +1,1 @@
+web: java -jar target/tablero-interactivo-buenas-practicas-1.0-SNAPSHOT.jar
